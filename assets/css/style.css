@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--white);
+}
+  
+:root {
+    --titulo:#212529; 
+    --info: #707070;
+    --light: #F8F9FA;
+    --white: #fff;
+    --success: #28A745;
+
+    --weight-light: 300;
+    --weight-medium: 500;
+}
+.navbar img {
+    max-width: 100px;
+}
+.navbar {
+    background-color: var(--success);
+}
+.navbar-toggler-icon {
+    color: var(--white) !important; 
+}
+.navbar-toggler {
+    border: 1.5px solid #FFFFFF80;
+}
+.card {
+    margin: 20px;
+}
+.card-title {
+    font-weight: var(--weight-light);
+    font-size: 24px;
+    color: var(--titulo);
+}
+.card-text {
+    font-weight: var(--weight-light);
+    font-size: 16px;
+    color: var(--info);
+}
+.card-text-2 {
+    font-weight: var(--weight-light);
+    font-size: 14px;
+    color: var(--info);
+}
+.precio {
+    font-size: 24px;
+    margin-left: 20px;
+    color: var(--success);
+    font-weight: var(--weight-medium);
+}
+.text-end{ 
+    margin: 0 20px 20px 20px;
+}
+
+.col-md-6 {
+    background-color: var(--success);
+    padding-top: 20px;
+}
+.col-md-6 h5{
+    margin-bottom: -20px;
+    color: var(--light);
+}
+form {
+    background-color: var(--success);
+    margin: 20px;
+}
+form .btn {
+    margin-top: 20px;
+    padding: 5px 30px;
+    background-color: var(--white);
+    color: var(--titulo);
+    font-weight: var(--weight-medium);
+}
+::placeholder {
+    color:var(--info); 
+    font-weight: var(--weight-light);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--info);
+    font-weight: var(--weight-light);
+}
+footer img {
+    margin-bottom: 20px;
+    max-width: 100px;
+}
